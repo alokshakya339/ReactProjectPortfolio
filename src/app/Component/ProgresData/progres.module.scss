@@ -1,0 +1,23 @@
+.progressContainer{
+    width: 65%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-radius: 30px;
+    p{
+        width: 100%;
+    }
+    span{
+        font-size: 12px;
+    }
+    .content{
+        width: 40%;
+    }
+    .skills{
+        width: 50%;
+        padding: 0px 10px;
+    }
+}

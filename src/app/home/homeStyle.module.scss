@@ -1,0 +1,27 @@
+.DesktopHomeWrraper{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    .homeWrraper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        .homeContainer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10%;
+        }
+    }
+    .aboutWrraper{
+        margin-top: 20px;
+        margin-top: 240px;
+    }
+    .servicesWrraper{
+        // margin: 56px 0px;
+        margin-top: 240px;
+        display: flex;
+        justify-content: center;
+    }
+}

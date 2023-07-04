@@ -1,0 +1,23 @@
+.container{
+    .IconContainer{
+        border: 2px solid #9BA4B5;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        position: fixed;
+        top: 30%;
+        height: 330px;
+        padding: 20px 10px;
+        z-index: 999;
+        span{
+            color: #9BA4B5;
+        }
+        span:hover{
+            color: #F29727;
+            cursor: pointer;
+        }
+    }
+
+
+}
