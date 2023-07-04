@@ -1,0 +1,12 @@
+.statsConatiner{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    .countBox{
+        margin-left: 10px;
+        p{
+        font-size: 24px;
+        font-weight: 600;
+        }
+    }
+}

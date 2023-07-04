@@ -1,0 +1,11 @@
+.socialStyleContainer{
+    z-index: 9999;
+    span{
+        margin: 5px;
+        
+    }
+    span:hover{
+        color: #E7B10A;
+        cursor: pointer;
+    }
+}

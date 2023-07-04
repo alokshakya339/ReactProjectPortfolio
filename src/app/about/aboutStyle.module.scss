@@ -1,0 +1,20 @@
+.aboutContainer{
+    .heading{
+        font-size: 35px;
+        margin-bottom: 90px;
+    }
+    img{
+        margin: 20px;
+    }
+    .dtaContaineer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .statsBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;
+    }
+}
