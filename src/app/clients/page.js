@@ -11,7 +11,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-const Services = () => {
+const Client = () => {
   const data = [
     {
       id: 1,
@@ -45,7 +45,7 @@ const Services = () => {
 
   return (
     <div className={testimonialStyle.container} >
-      <h2 className={testimonialStyle.heading}>Services</h2>
+      <h2 className={testimonialStyle.heading}>Client & Review</h2>
       <Swiper 
       loop={true}
       modules={[Pagination]}
@@ -60,4 +60,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Client

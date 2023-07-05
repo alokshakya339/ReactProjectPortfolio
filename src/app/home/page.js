@@ -7,7 +7,7 @@ import Button from '../Component/Shared/Button/Button'
 import Shapes from '../Component/Shapes/Shapes'
 import Navbar from '../Component/NavBar/Navbar'
 import About from '../about/page'
-import Services from '../services/page'
+import Client from '../clients/page'
 import Footer from '../Component/Shared/Footer/Footer'
 const Home = () => {
   return (
@@ -28,7 +28,7 @@ const Home = () => {
           <About/>
         </div> 
         <div className={HomeStyle.servicesWrraper} >
-          <Services/>
+          <Client/>
         </div>
         <Footer/>
       </div>
