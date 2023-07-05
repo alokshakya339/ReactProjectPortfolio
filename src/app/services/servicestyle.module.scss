@@ -1,0 +1,40 @@
+.DesktopServiceWrraper{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .innerWrraper{
+        display: flex;
+        justify-content: space-between;
+        .card{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 24%;
+            border-radius: 20px;
+            padding: 33px 38px;
+            transition: 0.3s;
+            p{
+                text-align: center;
+                line-height: 20px;
+            }
+            span{
+                margin-top: 10px;
+                font-weight: 600;
+                font-size: 18px;
+            }
+        }
+        .card:hover{
+            transform: translate(0, -20px);
+        }
+    }
+    h1{
+        font-size: 35px;
+    }
+
+}
