@@ -1,0 +1,83 @@
+.DesktopServiceWrraper{
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    .tabsName{
+        span{
+            margin: 26px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        span:hover{
+            color: red;
+        }
+    }
+    .innerWrraper{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 35px;
+        .card{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            img{
+            width: 280px;
+            height: 227px;
+            }
+            .workMask{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-color: #4942E4;
+                top: 0;
+                left: 0;
+                transition: 3s;
+                opacity: 0;
+            }
+            span{
+                color: #fff;
+                background-color: red;
+                border-bottom-left-radius: 0.98rem;
+                border-bottom-right-radius: 0.98rem;
+                position: absolute;
+                top: 0;
+                left: 1.5rem;
+                font-size: 16px;
+                display: inline-block;
+                padding: 0.19rem 0.625rem;
+                transform: translateY(-40px);
+                transition: .3s;
+            }
+            h3{
+                color: #fff;
+                margin: 0 0 0.98rem;
+                padding: 0 1.25rem;
+                position: absolute;
+                top: 3.75rem;
+                transform: translateY(3px);
+                transition: 0.3s;
+                opacity: 0;
+            }
+        }
+        .card:hover span , .card:hover h3 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .card:hover .workMask{
+            opacity: 0.9;
+        }
+    }
+    h1{
+        font-size: 35px;
+    }
+    .activetab{
+        color: red;
+    }
+
+}

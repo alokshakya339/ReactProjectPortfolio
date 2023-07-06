@@ -19,7 +19,7 @@ const Navbar = () => {
         <span onClick={()=>router.push('/services')}>
             <RiContactsFill fontSize={30}/>
         </span>
-        <span>
+        <span onClick={()=>router.push('/work')}>
             <MdOutlineWork fontSize={30}/>
         </span>
         <span>
