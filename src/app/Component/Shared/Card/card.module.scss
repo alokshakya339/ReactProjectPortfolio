@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .details{
+        width: 88%;
+        margin-bottom: 40px;
+        h2{
+            line-height: 5px;
+        }
+        span{
+            color: gray;
+        }
+    }
+    .details::before{
+        content: "";
+        width: 2px;
+        height: 73%;
+        position: absolute;
+        left: 12px;
+        top: 23px;
+        background-color: #FF0060;
+    }
+}

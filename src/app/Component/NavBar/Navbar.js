@@ -22,7 +22,7 @@ const Navbar = () => {
         <span onClick={()=>router.push('/work')}>
             <MdOutlineWork fontSize={30}/>
         </span>
-        <span>
+        <span onClick={()=>router.push('education')}>
             <IoSchool fontSize={30}/>
         </span>
         <span>

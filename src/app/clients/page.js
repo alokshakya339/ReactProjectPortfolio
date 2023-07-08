@@ -34,7 +34,7 @@ const Client = () => {
 
   let listitem = data.map((item)=>{
     return <SwiperSlide className={testimonialStyle.subPart}>
-              <Image src={item.image} alt={item.title}/>
+              <Image src={item.image} alt={item.title} width="90" height="90px"/>
               <h2>{item.title}</h2>
               <span>{item.subtitle}</span>
               <div className={testimonialStyle.comment}>

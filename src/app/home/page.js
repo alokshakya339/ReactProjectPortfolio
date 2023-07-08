@@ -9,6 +9,7 @@ import Navbar from '../Component/NavBar/Navbar'
 import About from '../about/page'
 import Client from '../clients/page'
 import Footer from '../Component/Shared/Footer/Footer'
+import Blog from '../Component/Blog/Blog'
 const Home = () => {
   return (
     <React.Fragment>
@@ -27,6 +28,9 @@ const Home = () => {
         <div className={HomeStyle.aboutWrraper} >
           <About/>
         </div> 
+        <div className={HomeStyle.blogWrraper} >
+          <Blog/>
+        </div>
         <div className={HomeStyle.servicesWrraper} >
           <Client/>
         </div>
