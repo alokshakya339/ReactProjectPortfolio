@@ -25,10 +25,10 @@ const Navbar = () => {
         <span onClick={()=>router.push('education')}>
             <IoSchool fontSize={30}/>
         </span>
-        <span>
+        <span onClick={()=>router.push('Plans')}>
             <BiSolidMessageAltEdit fontSize={30}/>
         </span>
-        <span>
+        <span onClick={()=>router.push('contact')}>
             <IoIosChatbubbles fontSize={30}/>
         </span>
         

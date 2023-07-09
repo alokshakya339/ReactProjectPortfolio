@@ -11,8 +11,11 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin-top: 100px;
         h1{
-            margin-bottom: 75px;
+            position: absolute;
+            top: 40px;
+            left: 0px;
         }
     }
     .mainBox{
